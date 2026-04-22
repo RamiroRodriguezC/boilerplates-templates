@@ -1,0 +1,25 @@
+{
+  "name": "mern-backend-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate para backend MERN con JWT, bcrypt, soft-delete y paginacion",
+  "main": "src/app.js",
+  "scripts": {
+    "devstart": "node --env-file=.env --watch src/app.js",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/tu-usuario/mern-backend-boilerplate"
+  },
+  "keywords": ["MERN", "Express", "MongoDB", "JWT", "boilerplate"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.3"
+  }
+}
